@@ -39,10 +39,17 @@
     
     [UIView animateWithDuration:durantion animations:^{
         toView.view.transform = CGAffineTransformIdentity;
-        fromView.view.transform = CGAffineTransformMakeTranslation(screenBounds.size.width, 0);
+//        fromView.view.transform = CGAffineTransformMakeTranslation(screenBounds.size.width, 0);
+//        fromView.view.transform = CGAffineTransformMakeScale(0.9, 0.9);
+        fromView.view.frame = self.viewBounds;
+        fromView.view.alpha = 0.2;
     } completion:^(BOOL finished) {
-        
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+//        [UIView animateWithDuration:durantion animations:^{
+//            
+//        } completion:^(BOOL finished) {
+//            
+//        }];
     }];
 
 }

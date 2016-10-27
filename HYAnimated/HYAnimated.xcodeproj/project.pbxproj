@@ -21,6 +21,7 @@
 		50E40AC01D2A67C200B72A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E40ABF1D2A67C200B72A59 /* Assets.xcassets */; };
 		50E40AC31D2A67C200B72A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E40AC11D2A67C200B72A59 /* LaunchScreen.storyboard */; };
 		50E40AD71D2A694D00B72A59 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E40AD61D2A694D00B72A59 /* rootViewController.m */; };
+		50E7A6FD1DC1905D002D5421 /* ILMLicenseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E7A6FC1DC1905D002D5421 /* ILMLicenseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		50E40AC41D2A67C200B72A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E40AD51D2A694D00B72A59 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
 		50E40AD61D2A694D00B72A59 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		50E7A6FB1DC1905D002D5421 /* ILMLicenseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILMLicenseTableViewCell.h; sourceTree = "<group>"; };
+		50E7A6FC1DC1905D002D5421 /* ILMLicenseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILMLicenseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				50E40AB41D2A67C200B72A59 /* AppDelegate.m */,
 				50E40AB61D2A67C200B72A59 /* ViewController.h */,
 				50E40AB71D2A67C200B72A59 /* ViewController.m */,
+				50E7A6FB1DC1905D002D5421 /* ILMLicenseTableViewCell.h */,
+				50E7A6FC1DC1905D002D5421 /* ILMLicenseTableViewCell.m */,
 				50E40AD51D2A694D00B72A59 /* rootViewController.h */,
 				50E40AD61D2A694D00B72A59 /* rootViewController.m */,
 				507650AB1D7FF65900E06586 /* model */,
@@ -220,6 +225,7 @@
 				50E40AB51D2A67C200B72A59 /* AppDelegate.m in Sources */,
 				50E40AB21D2A67C200B72A59 /* main.m in Sources */,
 				507650B51D7FF65900E06586 /* HYPopGesturesAnimation.m in Sources */,
+				50E7A6FD1DC1905D002D5421 /* ILMLicenseTableViewCell.m in Sources */,
 				507650B41D7FF65900E06586 /* HYNavPushAnimation.m in Sources */,
 				50E40ABE1D2A67C200B72A59 /* HYAnimated.xcdatamodeld in Sources */,
 				507650BB1D7FF68100E06586 /* HYModelPresentAnimation.m in Sources */,

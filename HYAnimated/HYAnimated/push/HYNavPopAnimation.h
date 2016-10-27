@@ -11,4 +11,5 @@
 
 @interface HYNavPopAnimation : NSObject<UIViewControllerAnimatedTransitioning>
 
+@property (nonatomic,assign) CGRect viewBounds;
 @end

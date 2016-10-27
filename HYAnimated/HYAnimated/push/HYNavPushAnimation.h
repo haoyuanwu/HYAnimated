@@ -11,5 +11,6 @@
 
 @interface HYNavPushAnimation : NSObject<UIViewControllerAnimatedTransitioning>
 
+@property (nonatomic,assign) CGRect viewBounds;
 
 @end
