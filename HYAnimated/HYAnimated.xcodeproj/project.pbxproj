@@ -15,12 +15,12 @@
 		507650BF1D7FF6A800E06586 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507650BE1D7FF6A800E06586 /* BaseViewController.m */; };
 		50E40AB21D2A67C200B72A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E40AB11D2A67C200B72A59 /* main.m */; };
 		50E40AB51D2A67C200B72A59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E40AB41D2A67C200B72A59 /* AppDelegate.m */; };
-		50E40AB81D2A67C200B72A59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E40AB71D2A67C200B72A59 /* ViewController.m */; };
+		50E40AB81D2A67C200B72A59 /* UINMInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E40AB71D2A67C200B72A59 /* UINMInfoViewController.m */; };
 		50E40ABB1D2A67C200B72A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E40AB91D2A67C200B72A59 /* Main.storyboard */; };
 		50E40ABE1D2A67C200B72A59 /* HYAnimated.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E40ABC1D2A67C200B72A59 /* HYAnimated.xcdatamodeld */; };
 		50E40AC01D2A67C200B72A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E40ABF1D2A67C200B72A59 /* Assets.xcassets */; };
 		50E40AC31D2A67C200B72A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E40AC11D2A67C200B72A59 /* LaunchScreen.storyboard */; };
-		50E40AD71D2A694D00B72A59 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E40AD61D2A694D00B72A59 /* rootViewController.m */; };
+		50E40AD71D2A694D00B72A59 /* UINMinforDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E40AD61D2A694D00B72A59 /* UINMinforDetailsViewController.m */; };
 		50E7A6FD1DC1905D002D5421 /* ILMLicenseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E7A6FC1DC1905D002D5421 /* ILMLicenseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -41,15 +41,15 @@
 		50E40AB11D2A67C200B72A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50E40AB31D2A67C200B72A59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50E40AB41D2A67C200B72A59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		50E40AB61D2A67C200B72A59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		50E40AB71D2A67C200B72A59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50E40AB61D2A67C200B72A59 /* UINMInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UINMInfoViewController.h; sourceTree = "<group>"; };
+		50E40AB71D2A67C200B72A59 /* UINMInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINMInfoViewController.m; sourceTree = "<group>"; };
 		50E40ABA1D2A67C200B72A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50E40ABD1D2A67C200B72A59 /* HYAnimated.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HYAnimated.xcdatamodel; sourceTree = "<group>"; };
 		50E40ABF1D2A67C200B72A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50E40AC21D2A67C200B72A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50E40AC41D2A67C200B72A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50E40AD51D2A694D00B72A59 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
-		50E40AD61D2A694D00B72A59 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		50E40AD51D2A694D00B72A59 /* UINMinforDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINMinforDetailsViewController.h; sourceTree = "<group>"; };
+		50E40AD61D2A694D00B72A59 /* UINMinforDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINMinforDetailsViewController.m; sourceTree = "<group>"; };
 		50E7A6FB1DC1905D002D5421 /* ILMLicenseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILMLicenseTableViewCell.h; sourceTree = "<group>"; };
 		50E7A6FC1DC1905D002D5421 /* ILMLicenseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILMLicenseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,12 +120,12 @@
 				507650BC1D7FF6A800E06586 /* base */,
 				50E40AB31D2A67C200B72A59 /* AppDelegate.h */,
 				50E40AB41D2A67C200B72A59 /* AppDelegate.m */,
-				50E40AB61D2A67C200B72A59 /* ViewController.h */,
-				50E40AB71D2A67C200B72A59 /* ViewController.m */,
+				50E40AB61D2A67C200B72A59 /* UINMInfoViewController.h */,
+				50E40AB71D2A67C200B72A59 /* UINMInfoViewController.m */,
 				50E7A6FB1DC1905D002D5421 /* ILMLicenseTableViewCell.h */,
 				50E7A6FC1DC1905D002D5421 /* ILMLicenseTableViewCell.m */,
-				50E40AD51D2A694D00B72A59 /* rootViewController.h */,
-				50E40AD61D2A694D00B72A59 /* rootViewController.m */,
+				50E40AD51D2A694D00B72A59 /* UINMinforDetailsViewController.h */,
+				50E40AD61D2A694D00B72A59 /* UINMinforDetailsViewController.m */,
 				507650AB1D7FF65900E06586 /* model */,
 				507650AC1D7FF65900E06586 /* push */,
 				50E40AB91D2A67C200B72A59 /* Main.storyboard */,
@@ -218,9 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				507650BA1D7FF68100E06586 /* HYModelDismissAnimation.m in Sources */,
-				50E40AB81D2A67C200B72A59 /* ViewController.m in Sources */,
+				50E40AB81D2A67C200B72A59 /* UINMInfoViewController.m in Sources */,
 				507650BF1D7FF6A800E06586 /* BaseViewController.m in Sources */,
-				50E40AD71D2A694D00B72A59 /* rootViewController.m in Sources */,
+				50E40AD71D2A694D00B72A59 /* UINMinforDetailsViewController.m in Sources */,
 				507650B31D7FF65900E06586 /* HYNavPopAnimation.m in Sources */,
 				50E40AB51D2A67C200B72A59 /* AppDelegate.m in Sources */,
 				50E40AB21D2A67C200B72A59 /* main.m in Sources */,
