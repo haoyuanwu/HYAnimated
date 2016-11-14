@@ -13,6 +13,7 @@
 #import "HYNavPushAnimation.h"
 #import "HYNavPopAnimation.h"
 #import "ILMLicenseTableViewCell.h"
+#import "UINMinforDetailsViewController.h"
 
 @interface UINMInfoViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -58,7 +59,7 @@
 }
 
 - (void)present{
-    rootViewController *root = [[rootViewController alloc] init];
+    UINMinforDetailsViewController *root = [[UINMinforDetailsViewController alloc] init];
     root.transitioningDelegate = self;
     [self.navigationController pushViewController:root animated:YES];
 //    [self presentViewController:root animated:YES completion:nil];

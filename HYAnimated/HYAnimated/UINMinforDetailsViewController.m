@@ -99,7 +99,11 @@ double get_Y(double initValue,double k,double b){
     [bgScrollView addSubview:label];
     
     [UIView animateWithDuration:0.25 animations:^{
-        imageV.transform = CGAffineTransformMakeScale(1.3, 1.3);
+        CGFloat k = get_K(0,image.size.height,1);
+        CGFloat scale = get_Y(0, k, 0);
+        NSLog(@"%f",scale);
+        imageV.transform = CGAffineTransformMakeScale(1-scale,1-scale);
+        
         CGRect rect = imageV.frame;
         rect.origin = CGPointMake(-image.size.width/4, 0);
         rect.size = CGSizeMake(image.size.width, image.size.height);
